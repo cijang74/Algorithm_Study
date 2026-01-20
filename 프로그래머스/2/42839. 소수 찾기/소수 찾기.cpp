@@ -37,6 +37,7 @@ int solution(string numbers)
     // 모든 자리수의 순열 구하기 (이캠퍼스 블로그 참고)
     while(r <= size)
     {
+        sort(numbers.begin(), numbers.end());
         do 
         {
             string s = "";
