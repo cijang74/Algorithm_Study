@@ -11,7 +11,7 @@ vector<int> solution(vector<int> answers)
     
     // 1번 수포자
     h = {1, 2, 3, 4, 5};
-    while(v.size() < 10000)
+    while(v.size() <= 10000)
     {
         v.insert(v.end(), h.begin(), h.end());
     }
@@ -28,7 +28,7 @@ vector<int> solution(vector<int> answers)
     
     // 2번 수포자
     h = {2, 1, 2, 3, 2, 4, 2, 5};
-    while(v.size() < 10000)
+    while(v.size() <= 10000)
     {
         v.insert(v.end(), h.begin(), h.end());
     }
@@ -45,7 +45,7 @@ vector<int> solution(vector<int> answers)
     
     // 3번 수포자
     h = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
-    while(v.size() < 10000)
+    while(v.size() <= 10000)
     {
         v.insert(v.end(), h.begin(), h.end());
     }
